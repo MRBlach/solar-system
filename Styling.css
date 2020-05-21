@@ -24,7 +24,7 @@ nav {
 .container-fluid{
   padding-top: 25px;
 }
-.navbar{
+.navbar-nav{
   overflow-x: scroll;
   height:100%;
 }
