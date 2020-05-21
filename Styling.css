@@ -25,5 +25,5 @@ nav {
   padding-top: 25px;
 }
 .navbar-nav{
-  overflow-x: scroll;
+  height: 100%;
 }
