@@ -1,0 +1,25 @@
+.display-1 {
+  font-family: 'Bungee Outline', cursive;
+}
+
+.jumbotron{
+  padding-top: 200px;
+  margin-bottom: -10px;
+  background-image: url(Images/stars.jpeg);
+}
+.second{
+  font-family: 'Bungee Outline', cursive;
+font-family: 'Kanit', sans-serif;
+}
+.third{
+  font-family: 'Bungee Outline', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
+nav {
+  background-image: url(Images/stars.jpeg);
+  image-align: center;
+}
+.container-fluid{
+  padding-top: 25px;
+}
