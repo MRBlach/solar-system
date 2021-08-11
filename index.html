@@ -10,7 +10,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Kanit:ital,wght@1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Kanit:ital,wght@1,900&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="Styling.css">
-  <link rel="javascript" href="example2.js">
 
   <title>The Solar System</title>
 </head>
@@ -19,112 +18,121 @@
 
 
 
-  <!--header-->
-
+  <!--Header start-->
   <div class="jumbotron jumbotron-fluid bg-dark text-white text-center" id="pagetop">
     <h1 class="display-1">Solar System</h1>
     <h1 class="second">A brief look at the order of our planetary solar system.</h1>
     <p class="third">Journey through the solar system below for some quick highlights of each celestial giant.</p>
   </div>
+  <!-- End header -->
 
 
 
-
-  <!--navbar-->
+  <!--Nav start-->
   <nav class="navbar navbar-expand-xl navbar-dark justify-content-center sticky-top">
-    <!--rocket top link-->
+    <!--Rocket top link-->
 
     <a class="navbar-brand" href="index.html#pagetop" data-toggle="tooltip" data-placement="top" title="Blast Back to Top of Page!"><i class="fas fa-rocket" style="font-size: 50px;"></i></a>
-    <!--navbar collapse button-->
+    <!--Navbar collapse button-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-      <!--planet image links-->
+      <!--Planet image links-->
       <ul class="navbar-nav">
-        <!--sun-->
+        <!--Sun-->
         <li class="nav-item" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <a class="nav-link" href="index.html#sun" title="Sun"><img src="Images/sun.jpeg" class="rounded-circle" alt="Sun" height="150px"></a>
+          <a class="nav-link" href="index.html#sun" title="Sun"><img src="Images/sun.png" class="rounded-circle" alt="Sun" height="150px"></a>
         </li>
-        <!--mercury-->
+        <!--Mercury-->
         <li class="nav-item" data-toggle="collapse" data-target="#collapsibleNavbar">
           <a class="nav-link" href="index.html#mercury" title="Mercury">
-            <img class="rounded-circle" src="Images/mercury.jpeg" alt="Mercury" height="18px"></a>
+            <img class="rounded-circle" src="Images/mercury.png" alt="Mercury" height="18px"></a>
         </li>
-        <!--venus-->
+        <!--Venus-->
         <li class="nav-item" data-toggle="collapse" data-target="#collapsibleNavbar">
           <a class="nav-link" href="index.html#venus" title="Venus">
-            <img class="rounded-circle" src="Images/venus.jpeg" alt="Venus" height="50px">
+            <img class="rounded-circle" src="Images/venus.png" alt="Venus" height="50px">
           </a>
         </li>
-        <!--earth-->
+        <!--Earth-->
         <li class="nav-item" data-toggle="collapse" data-target="#collapsibleNavbar">
           <a class="nav-link" href="index.html#earth" title="Earth">
-            <img class="rounded-circle" src="Images/earth.jpeg" alt="Earth" height="40px">
+            <img class="rounded-circle" src="Images/earth.png" alt="Earth" height="40px">
           </a>
         </li>
-        <!--mars-->
+        <!--Mars-->
         <li class="nav-item" data-toggle="collapse" data-target="#collapsibleNavbar">
           <a class="nav-link" href="index.html#mars" title="Mars">
-            <img class="rounded-circle" src="Images/mars.jpeg" alt="Mars" height="28px">
+            <img class="rounded-circle" src="Images/mars.png" alt="Mars" height="28px">
           </a>
         </li>
-        <!--jupiter-->
+        <!--Jupiter-->
         <li class="nav-item" data-toggle="collapse" data-target="#collapsibleNavbar">
           <a class="nav-link" href="index.html#jupiter" title="Jupiter">
-            <img class="rounded-circle" src="Images/jupiter.jpeg" alt="Jupiter" height="75px">
+            <img class="rounded-circle" src="Images/jupiter.png" alt="Jupiter" height="75px">
           </a>
         </li>
-        <!--saturn-->
+        <!--Saturn-->
         <li class="nav-item" data-toggle="collapse" data-target="#collapsibleNavbar">
           <a class="nav-link" href="index.html#saturn" title="Saturn">
-            <img class="rounded-circle" src="Images/saturn.jpeg" alt="Saturn" height="70px">
+            <img class="rounded-circle" src="Images/saturn.png" alt="Saturn" height="70px">
           </a>
         </li>
-        <!--uranus-->
+        <!--Uranus-->
         <li class="nav-item" data-toggle="collapse" data-target="#collapsibleNavbar">
           <a class="nav-link" href="index.html#uranus" title="Uranus">
-            <img class="rounded-circle" src="Images/uranus.jpeg" alt="Uranus" height="25px">
+            <img class="rounded-circle" src="Images/uranus.png" alt="Uranus" height="25px">
           </a>
         </li>
-        <!--neptune-->
+        <!--Neptune-->
         <li class="nav-item" data-toggle="collapse" data-target="#collapsibleNavbar">
           <a class="nav-link" href="index.html#neptune" title="Neptune" >
-            <img class="rounded-circle" src="Images/neptune.jpeg" alt="Neptune" height="50px">
+            <img class="rounded-circle" src="Images/neptune.png" alt="Neptune" height="50px">
           </a>
         </li>
-        <!--pluto; needs js to disable-->
+        <!--Pluto; needs js to disable-->
         <li class="nav-item" title="ERROR 404: PLANET NOT FOUND">
           <a class="nav-link" href="error.html"  target="_blank"title="Pluto">
-            <img class="rounded-circle" src="Images/pluto.jpeg" alt="Pluto" height="15px">
+            <img class="rounded-circle" src="Images/pluto.png" alt="Pluto" height="15px">
           </a>
         </li>
       </ul>
     </div>
   </nav>
+  <!-- Nav end -->
 
-
-  <!--grid-->
-  <!--sun-->
+  <!--Main start-->
+  <!--Sun container-->
   <div class="margin-sun" id="sun">
-
+    <!-- marginal gap for top of page -->
   </div>
   <div class="container-fluid bg-dark text-primary">
     <div class="row">
-      <div class="col-md-3 ">
-        <strong>Sun;</strong> <em title="Latin">Solis</em>
+      <div class="col-md-3">
+        <strong>Sun;</strong><br> <em title="Latin">Solis</em>
       </div>
       <div class="col-md-9">
-        <p class="float-right">Mean distance from Earth: 1 au ≈ 1.496×108 km[4] 8 min 19 s at light speed</p>
+        <div class="row">
+          <div class="col-6">
+            <p class="float-right">Average distance from Earth:</p>
+          </div>
+          <div class="col-6">
+            <p class="float-right"> 92.96 million miles,<br>
+              8 min & 19 sec at light speed,<br>
+              222 days at rocket speed
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="container-fluid justify-content-center" style="background-color:lightgrey">
     <div class="row">
-      <div class="col-md-4 ">
-        <img class="rounded-circle" src="Images/sun.jpeg" alt="">
+      <div class="col-md-4 pl-4">
+        <img class="rounded-circle" src="Images/sun.png">
       </div>
       <div class="col-md-4 ">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, earum, vero placeat labore culpa quidem ducimus, rerum odit accusantium saepe consectetur hic reprehenderit facere? Reiciendis, quis eius? Totam voluptatibus libero sed ea
@@ -140,17 +148,27 @@
       </div>
     </div>
   </div>
-  <!--grid mercury-->
+  <!--Mercury container-->
   <div class="margin" id="mercury">
 
   </div>
   <div class="container-fluid bg-dark text-primary">
     <div class="row">
-      <div class="col-md-3 ">
-        <strong>Mercury;</strong> <em title="Latin">Mercurio Supernatat</em>
+      <div class="col-md-3">
+        <strong>Mercury;</strong><br> <em title="Latin">Mercurio Supernatat</em>
       </div>
       <div class="col-md-9">
-        <p class="float-right">Mean distance from Earth:</p>
+        <div class="row">
+          <div class="col-6">
+            <p class="float-right">Average distance from Earth:</p>
+          </div>
+          <div class="col-6">
+            <p class="float-right"> 48 million miles, <br>
+              4 min & 3 sec at light speed,<br>
+              40 days at rocket speed
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -158,7 +176,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-4 ">
-        <img class="rounded-circle" src="Images/mercury.jpeg" alt="Mercury" style="height:auto;">
+        <img class="rounded-circle" src="Images/mercury.png" alt="Mercury" style="height:auto;">
       </div>
       <div class="col-md-4 ">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, earum, vero placeat labore culpa quidem ducimus, rerum odit accusantium saepe consectetur hic reprehenderit facere? Reiciendis, quis eius? Totam voluptatibus libero sed ea
@@ -175,17 +193,27 @@
     </div>
   </div>
 
-  <!--grid venus-->
+  <!--Venus container-->
   <div class="margin" id="venus">
 
   </div>
   <div class="container-fluid bg-dark text-primary">
     <div class="row">
-      <div class="col-md-3 ">
-        <strong>Venus;</strong> <em title="Latin">Diona</em>
+      <div class="col-md-3">
+        <strong>Venus;</strong><br> <em title="Latin">Diona</em>
       </div>
       <div class="col-md-9">
-        <p class="float-right">Mean distance from Earth:</p>
+        <div class="row">
+          <div class="col-6">
+            <p class="float-right">Average distance from Earth:</p>
+          </div>
+          <div class="col-6">
+            <p class="float-right"> 25 million miles, <br>
+              10 min & 31 sec at light speed, <br>
+              4 months at rocket speed
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -193,7 +221,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-4 ">
-        <img class="rounded-circle" src="Images/venus.jpeg" alt="Venus" style="height:auto;">
+        <img class="rounded-circle" src="Images/venus.png" alt="Venus" style="height:auto;">
       </div>
       <div class="col-md-4 ">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, earum, vero placeat labore culpa quidem ducimus, rerum odit accusantium saepe consectetur hic reprehenderit facere? Reiciendis, quis eius? Totam voluptatibus libero sed ea
@@ -210,17 +238,25 @@
     </div>
   </div>
 
-  <!--grid earth-->
+  <!--Earth container-->
   <div class="margin" id="earth">
 
   </div>
   <div class="container-fluid bg-dark text-primary">
     <div class="row">
-      <div class="col-md-3 ">
-        <strong>Earth;</strong> <em title="Latin">Terra</em>
+      <div class="col-md-3">
+        <strong>Earth;</strong><br> <em title="Latin">Terra</em>
       </div>
       <div class="col-md-9">
-        <p class="float-right">Mean distance from Sun:</p>
+        <div class="row">
+          <div class="col-6">
+            <p class="float-right">Galactic plane position:</p>
+          </div>
+          <div class="col-6">
+            <p class="float-right">0&deg
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -228,7 +264,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-4 ">
-        <img class="rounded-circle" src="Images/earth.jpeg" alt="Earth" style="height:auto;">
+        <img class="rounded-circle" src="Images/earth.png" alt="Earth" style="height:auto;">
       </div>
       <div class="col-md-4 ">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, earum, vero placeat labore culpa quidem ducimus, rerum odit accusantium saepe consectetur hic reprehenderit facere? Reiciendis, quis eius? Totam voluptatibus libero sed ea
@@ -244,17 +280,27 @@
       </div>
     </div>
   </div>
-  <!--grid mars-->
+  <!--Mars container-->
   <div class="margin" id="mars">
 
   </div>
   <div class="container-fluid bg-dark text-primary">
     <div class="row">
-      <div class="col-md-3 ">
-        <strong>Mars;</strong> <em title="Latin">Mars</em>
+      <div class="col-md-3">
+        <strong>Mars;</strong><br> <em title="Latin">Mars</em>
       </div>
       <div class="col-md-9">
-        <p class="float-right">Mean distance from Earth:</p>
+        <div class="row">
+          <div class="col-6">
+            <p class="float-right">Average distance from Earth:</p>
+          </div>
+          <div class="col-6">
+            <p class="float-right"> 33.9 million miles, <br>
+              22 min at light speed,<br>
+              7 months at rocket speed
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -262,7 +308,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-4 ">
-        <img class="rounded-circle" src="Images/mars.jpeg" alt="Mars" style="height:auto;">
+        <img class="rounded-circle" src="Images/mars.png" alt="Mars" style="height:auto;">
       </div>
       <div class="col-md-4 ">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, earum, vero placeat labore culpa quidem ducimus, rerum odit accusantium saepe consectetur hic reprehenderit facere? Reiciendis, quis eius? Totam voluptatibus libero sed ea
@@ -278,17 +324,27 @@
       </div>
     </div>
   </div>
-  <!--grid jupiter-->
+  <!--Jupiter container-->
   <div class="margin" id="jupiter">
 
   </div>
   <div class="container-fluid bg-dark text-primary">
     <div class="row">
-      <div class="col-md-3 ">
-        <strong>Jupiter;</strong> <em title="Latin">Jovis</em>
+      <div class="col-md-3">
+        <strong>Jupiter;</strong><br> <em title="Latin">Jovis</em>
       </div>
       <div class="col-md-9">
-        <p class="float-right">Mean distance from Earth:</p>
+        <div class="row">
+          <div class="col-6">
+            <p class="float-right">Average distance from Earth:</p>
+          </div>
+          <div class="col-6">
+            <p class="float-right"> 365 million miles, <br>
+              43 min at light speed,<br>
+              1.7 years at rocket speed
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -296,7 +352,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-4 ">
-        <img class="rounded-circle" src="Images/jupiter.jpeg" alt="Jupiter" style="height:auto;">
+        <img class="rounded-circle" src="Images/jupiter.png" alt="Jupiter" style="height:auto;">
       </div>
       <div class="col-md-4 ">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, earum, vero placeat labore culpa quidem ducimus, rerum odit accusantium saepe consectetur hic reprehenderit facere? Reiciendis, quis eius? Totam voluptatibus libero sed ea
@@ -312,17 +368,27 @@
       </div>
     </div>
   </div>
-  <!--grid saturn-->
+  <!--Saturn container-->
   <div class="margin" id="saturn">
 
   </div>
   <div class="container-fluid bg-dark text-primary">
     <div class="row">
-      <div class="col-md-3 ">
-        <strong>Saturn;</strong> <em title="Latin">Saturnus</em>
+      <div class="col-md-3">
+        <strong>Saturn;</strong><br> <em title="Latin">Saturnus</em>
       </div>
       <div class="col-md-9">
-        <p class="float-right">Mean distance from Earth:</p>
+        <div class="row">
+          <div class="col-6">
+            <p class="float-right">Average distance from Earth:</p>
+          </div>
+          <div class="col-6">
+            <p class="float-right"> 746 million miles, <br>
+              1 hr & 14 min at light speed,<br>
+              1.3 years at rocket speed
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -330,7 +396,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-4 ">
-        <img class="rounded-circle" src="Images/saturn.jpeg" alt="Saturn" style="height:auto;">
+        <img class="rounded-circle" src="Images/saturn.png" alt="Saturn" style="height:auto;">
       </div>
       <div class="col-md-4 ">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, earum, vero placeat labore culpa quidem ducimus, rerum odit accusantium saepe consectetur hic reprehenderit facere? Reiciendis, quis eius? Totam voluptatibus libero sed ea
@@ -346,17 +412,27 @@
       </div>
     </div>
   </div>
-  <!--grid uranus-->
+  <!--Uranus container-->
   <div class="margin" id="uranus">
 
   </div>
   <div class="container-fluid bg-dark text-primary">
     <div class="row">
-      <div class="col-md-3 ">
-        <strong>Uranus;</strong> <em title="Latin">Uranus</em>
+      <div class="col-md-3">
+        <strong>Uranus;</strong><br> <em title="Latin">Uranus</em>
       </div>
       <div class="col-md-9">
-        <p class="float-right">Mean distance from Earth:</p>
+        <div class="row">
+          <div class="col-6">
+            <p class="float-right">Average distance from Earth:</p>
+          </div>
+          <div class="col-6">
+            <p class="float-right"> 1.6 billion miles, <br>
+              2 hr & 43 min at light speed,<br>
+              9.5 years at rocket speed
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -364,7 +440,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-4 ">
-        <img class="rounded-circle" src="Images/uranus.jpeg" alt="Uranus" style="height:auto;">
+        <img class="rounded-circle" src="Images/uranus.png" alt="Uranus" style="height:auto;">
       </div>
       <div class="col-md-4 ">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, earum, vero placeat labore culpa quidem ducimus, rerum odit accusantium saepe consectetur hic reprehenderit facere? Reiciendis, quis eius? Totam voluptatibus libero sed ea
@@ -380,27 +456,37 @@
       </div>
     </div>
   </div>
-  <!--grid neptune-->
+  <!--Neptune container-->
   <div class="margin" id="neptune">
 
   </div>
   <div class="container-fluid bg-dark text-primary">
     <div class="row">
-      <div class="col-md-3 ">
-        <strong>Neptune;</strong> <em title="Latin">Neptunium</em>
+      <div class="col-md-3">
+        <strong>Neptune;</strong><br> <em title="Latin">Neptunium</em>
       </div>
       <div class="col-md-9">
-        <p class="float-right">Mean distance from Earth:</p>
+        <div class="row">
+          <div class="col-6">
+            <p class="float-right">Average distance from Earth:</p>
+          </div>
+          <div class="col-6">
+            <p class="float-right"> 2.7 billion miles, <br>
+              4 hr & 1 min at light speed,<br>
+              12 years at rocket speed
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid">
+  <div class="container-fluid margin-bottom">
     <div class="row">
       <div class="col-md-4 ">
-        <img class="rounded-circle" src="Images/neptune.jpeg" alt="Neptune" style="height:auto;">
+        <img class="rounded-circle" src="Images/neptune.png" alt="Neptune" style="height:auto;">
       </div>
-      <div class="col-md-4 ">
+      <div class="col-md-4">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, earum, vero placeat labore culpa quidem ducimus, rerum odit accusantium saepe consectetur hic reprehenderit facere? Reiciendis, quis eius? Totam voluptatibus libero sed ea
         officiis, eligendi facere, error tempore id praesentium aperiam quisquam. Nihil, nesciunt alias tempora error ipsam distinctio, expedita saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium sed tempora praesentium, et,
         velit numquam quibusdam cupiditate beatae animi magni dolorum ipsum! Sunt placeat facere qui laboriosam dolore deserunt officia aliquam id repellat, beatae. Natus repellendus quia molestiae non culpa. Deserunt beatae, dolorem consectetur
@@ -414,15 +500,13 @@
       </div>
     </div>
   </div>
-
-  <div class="footer">
-
-  </div>
-
-
+  <!-- Main end -->
+ 
+  <!-- JS for BootStrap -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- Internal JS -->
   <script>
     $(document).ready(function() {
       $('[data-toggle="tooltip"]').tooltip();
