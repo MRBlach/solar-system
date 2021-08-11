@@ -12,8 +12,12 @@
   padding-right: 5px;
   padding-top: 200px;
   margin-bottom: -10px;
-  background-image: url(Images/stars.jpeg);
-  overflow-y: auto;
+  background-image: url('Images/stars.jpeg');
+  /* overflow-y: auto; */
+}
+.rounded-circle {
+  margin: 10px;
+  background-color: black;
 }
 .second{
   font-family: 'Bungee Outline', cursive;
@@ -26,8 +30,11 @@ font-family: 'Roboto Mono', monospace;
 }
 
 nav {
-  background-image: url(Images/stars.jpeg);
+  background-image: url('Images/stars.jpeg');
   text-align: center;
+}
+.wrapper {
+  padding-bottom: 50px;
 }
 .container-fluid {
   padding-top: 25px;
@@ -35,19 +42,19 @@ nav {
 }
 .margin-sun {
   padding-top: 180px;
-  background-image: url(Images/stars.jpeg);
+  background-image: url('Images/stars.jpeg');
 }
 .margin {
   padding-top: 180px;
   background-color:lightgrey;
 }
+.margin-bottom {
+  padding-bottom: 80px;
+}
 .navbar-nav{
   max-height: 800px;
 }
-.footer {
-  height: 300px;
-  background-color:lightgrey;
-}
+
 
 
 
